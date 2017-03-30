@@ -1,0 +1,2 @@
+md5sum: 46b6f551ca5364bbb90a0549ed0e87ac  stream_nuncamas_Edges.csv
+md5sum: b2282d822699791700591cfba4b72c1b  stream_nuncamas_nodes.csv
