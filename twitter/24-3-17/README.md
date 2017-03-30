@@ -49,7 +49,7 @@ Los datos fueron adquiridos con el script [Streaming_twitter](https://github.com
     weighted indegree:  float - Suma de todos los pesos de los link entrantes que tiene el nodo.
     weighted outdegree: float - Suma de todos los pesos de los link salientes que tiene el nodo.
     weighted degree:    float - Suma de todos los pesos de los link que tiene el nodo.
-    modularity_class:   int   - 
+    modularity_class:   int   -  Clase (o comunidad) a la que pertenece el nodo. Solo se calculo para los que tienen grado => 7. 
 
 * **File**: stream_nuncamas_Edges.csv  
 * **md5sum**: 46b6f551ca5364bbb90a0549ed0e87ac  stream_nuncamas_Edges.csv  
