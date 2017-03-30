@@ -37,31 +37,31 @@ Los datos fueron adquiridos con el script [Streaming_twitter](https://github.com
 * **md5sum**: b2282d822699791700591cfba4b72c1b  stream_nuncamas_nodes.csv  
 * **Licencia**: [**CC-by SA 4.0 International**](https://creativecommons.org/licenses/by/4.0/)
 * **Autores**: [Lucas Bellomo][1] - [Franco Bellomo][2]
-* **Descripción**:  
+* **Descripción**: Los nodos con algunas propiedades calculadas. Para los que tienen grado => 7 se le calculo el grado de modularidad. 
 
 **Columnas**:
 
-    id:                 int   -
-    label:              str   -
-    indegree:           int   -
-    outdegree:          int   -
-    degree:             int   -
-    weighted indegree:  float -
-    weighted outdegree: float -
-    weighted degree:    float -
-    modularity_class:   int   -
+    id:                 int   - id dentro del grafo (no es el de tweeter), son los "Source" y "Target" en stream_nuncamas_Edges.csv
+    label:              str   - Nombre del usuario (Nombre de la cuenta).
+    indegree:           int   - Numero de coneccines entrantes que tiene el nodo. 
+    outdegree:          int   - Numero de conecciones salientes que tiene el nodo.
+    degree:             int   - Numero de conecciones totales que tiene el nodo.
+    weighted indegree:  float - Suma de todos los pesos de los link entrantes que tiene el nodo.
+    weighted outdegree: float - Suma de todos los pesos de los link salientes que tiene el nodo.
+    weighted degree:    float - Suma de todos los pesos de los link que tiene el nodo.
+    modularity_class:   int   - 
 
 * **File**: stream_nuncamas_Edges.csv  
 * **md5sum**: 46b6f551ca5364bbb90a0549ed0e87ac  stream_nuncamas_Edges.csv  
 * **Licencia**: [**CC-by SA 4.0 International**](https://creativecommons.org/licenses/by/4.0/)
 * **Autores**: [Lucas Bellomo][1] - [Franco Bellomo][2]
-* **Descripción**:  
+* **Descripción**: Los link de stream_nuncamas_nodes.csv. Son links direccionales. 
 
 **Columnas**:
 
-    Source: int   -
-    Target: int   -
-    weight: float -
+    Source: int   - Nodo de origen del link. (No el id de twiter, sino el de stream_nuncamas_nodes.csv)
+    Target: int   - Nodo de destino del link. (No el id de twiter, sino el de stream_nuncamas_nodes.csv)
+    weight: float - Peso del nodo.
 
 
 
