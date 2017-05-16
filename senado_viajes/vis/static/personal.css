@@ -1,0 +1,99 @@
+/****************************************
+ * Base structure
+ ****************************************/
+body {
+    font-family: Helvetica, Arial;
+    position: relative;
+}
+
+.site-name {
+    font-family: 'Raleway', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.50;
+    color: #333333;
+    text-align: left;
+}
+
+ol, ul {
+    list-style: outside none none;
+}
+
+.list-icons {
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+    font-size: 18px;
+}
+
+.list-icons li {
+    padding: 0 0 15px 0;
+}
+
+blockquote {
+    border-left: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.title {
+    margin-top: 0;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.header-hidden {
+    position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0 !important;
+    border:0 !important;
+    height: 1px !important; 
+    width: 1px !important; 
+    overflow: hidden;
+}
+
+/****************************************
+ * map legend
+ ***************************************/
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+    margin-bottom: 40px !important;
+}
+
+.legengContent {
+    cursor: pointer;
+}
+
+.legend i {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 8px;
+    opacity: 1;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.legend span{
+  text-transform: capitalize
+}
